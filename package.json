@@ -1,0 +1,29 @@
+{
+  "name": "secret_santa",
+  "version": "1.0.0",
+  "description": "Secret Santa App",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fivepapertigers/secret-santa.git"
+  },
+  "author": "Jacob Griswold-Moran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fivepapertigers/secret-santa/issues"
+  },
+  "homepage": "https://github.com/fivepapertigers/secret-santa#readme",
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "devDependencies": {
+    "angular-resource": "^1.5.8"
+  }
+}

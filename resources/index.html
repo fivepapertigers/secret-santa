@@ -1,0 +1,28 @@
+<head>
+  <script type="text/javascript" src="/angular/angular.min.js"></script>
+  <script type="text/javascript" src="/angular-resource/angular-resource.js"></script>
+  <script type="text/javascript" src="/index.js"></script>
+</head>
+<body>
+  <div ng-app="SecretSanta">
+    <h1>Secret Santa</h1>
+    <div ng-controller="HomeController as home">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="p in home.participants">
+            <td>{{p.id}}</td>
+            <td>{{p.name}}</td>
+            <td>{{p.email}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
