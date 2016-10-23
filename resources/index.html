@@ -8,8 +8,8 @@
 <body>
   <div ng-app="SecretSanta" class="container-fluid">
     <h1>Secret Santa</h1>
-    {# List Participants Controller #}
-    <div ng-controller="HomeController as home">
+    <!-- List Participants Controller -->
+    <div ng-controller="ListParticipantsController as list">
       <table class="table table-responsive table-striped">
         <thead>
           <tr>
@@ -19,7 +19,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="p in home.participants">
+          <tr ng-repeat="p in list.participants">
             <td>{{p.id}}</td>
             <td>{{p.name}}</td>
             <td>{{p.email}}</td>
