@@ -11,5 +11,7 @@
                  [metosin/compojure-api "1.1.8"]
                  [compojure "1.4.0"]
                  [ring/ring-json "0.4.0"]
-                 [ring "1.5.0"]]
+                 [ring "1.5.0"]
+                 [org.postgresql/postgresql]
+                 [com.layerware/hugsql "0.4.5"]]
   :main secret_santa.web)

@@ -1,13 +1,16 @@
 <head>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script type="text/javascript" src="/angular/angular.min.js"></script>
+  <script type="text/javascript" src="/angular-bootstrap/ui-bootstrap.min.js"></script>
   <script type="text/javascript" src="/angular-resource/angular-resource.js"></script>
   <script type="text/javascript" src="/index.js"></script>
 </head>
 <body>
-  <div ng-app="SecretSanta">
+  <div ng-app="SecretSanta" class="container-fluid">
     <h1>Secret Santa</h1>
+    {# List Participants Controller #}
     <div ng-controller="HomeController as home">
-      <table>
+      <table class="table table-responsive table-striped">
         <thead>
           <tr>
             <th>ID</th>

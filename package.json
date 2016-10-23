@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/fivepapertigers/secret-santa#readme",
   "dependencies": {
-    "angular": "^1.5.8"
+    "angular": "^1.5.8",
+    "angular-bootstrap": "^0.12.2"
   },
   "devDependencies": {
     "angular-resource": "^1.5.8"
