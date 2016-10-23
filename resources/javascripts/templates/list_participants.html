@@ -1,0 +1,17 @@
+<!-- List Participants Controller -->
+<table class="table table-responsive table-striped">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="p in list.participants">
+      <td>{{p.id}}</td>
+      <td>{{p.name}}</td>
+      <td>{{p.email}}</td>
+    </tr>
+  </tbody>
+</table>

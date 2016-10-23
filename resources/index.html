@@ -3,29 +3,13 @@
   <script type="text/javascript" src="/angular/angular.min.js"></script>
   <script type="text/javascript" src="/angular-bootstrap/ui-bootstrap.min.js"></script>
   <script type="text/javascript" src="/angular-resource/angular-resource.js"></script>
+  <script type="text/javascript" src="/angular-route/angular-route.js"></script>
   <script type="text/javascript" src="/index.js"></script>
+  <base href="/">
 </head>
 <body>
   <div ng-app="SecretSanta" class="container-fluid">
     <h1>Secret Santa</h1>
-    <!-- List Participants Controller -->
-    <div ng-controller="ListParticipantsController as list">
-      <table class="table table-responsive table-striped">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Email</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr ng-repeat="p in list.participants">
-            <td>{{p.id}}</td>
-            <td>{{p.name}}</td>
-            <td>{{p.email}}</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <div ng-view></div>
   </div>
 </body>
